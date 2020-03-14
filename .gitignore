@@ -1,5 +1,5 @@
 .env
-vendor
+/vendor
 public/storage
 storage/app/public
 storage/installed
