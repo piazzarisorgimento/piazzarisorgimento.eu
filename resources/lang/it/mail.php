@@ -12,23 +12,23 @@ return [
 	*/
 	
 	// built-in template
-	'Whoops!' => 'Whoops!',
-	'Hello!' => 'Hello!',
-	'Regards' => 'Regards',
-	"If you’re having trouble clicking the \":actionText\" button, copy and paste the URL below\ninto your web browser: [:actionURL](:actionURL)" => "If you’re having trouble clicking the \":actionText\" button, copy and paste the URL below\ninto your web browser: [:actionURL](:actionURL)",
-	'All rights reserved.' => 'All rights reserved.',
+	'Whoops!' => 'Ooops!',
+	'Hello!' => 'Ciao!',
+	'Regards' => 'Saluti',
+	"If you’re having trouble clicking the \":actionText\" button, copy and paste the URL below\ninto your web browser: [:actionURL](:actionURL)" => "Se hai problemi a fare clic sul pulsante \":actionText\", copia e incolla l'URL qui sotto\nnel tuo browser: [:actionURL](:actionURL)",
+	'All rights reserved.' => 'Tutti i diritti riservati.',
 	
 	
 	// custom mail_footer (unused)
-	'mail_footer_content'            => 'Sell and buy near you. Simple, fast and efficient.',
+	'mail_footer_content'            => 'Vendi e acquista vicino a te. Semplice, veloce ed efficiente.',
 	
 	
 	// email_verification
-	'email_verification_title'       => 'Please verify your email address.',
-	'email_verification_action'      => 'Verify email address',
-	'email_verification_content_1'   => 'Hi :userName !',
-	'email_verification_content_2'   => 'Click the button below to verify your email address.',
-	'email_verification_content_3'   => 'You\'re receiving this email because you recently created a new :appName account or added a new email address. If this wasn\'t you, please ignore this email.',
+	'email_verification_title'       => 'Verifica il tuo indirizzo email.',
+	'email_verification_action'      => 'Verifica il tuo indirizzo email',
+	'email_verification_content_1'   => 'Ciao :userName !',
+	'email_verification_content_2'   => 'Clicca il pulsante qui sotto per verificare la tua email.',
+	'email_verification_content_3'   => 'Hai ricevuto questa email perchè recentemente hai creato un nuovo account :appName o hai aggiunto un nuovo indirizzo email. Se non sei stato tu, ignora questa email.',
 	
 	
 	// post_activated (new)
@@ -95,11 +95,11 @@ return [
 	
 	
 	// reset_password
-	'reset_password_title'           => 'Reset Your Password',
-	'reset_password_action'          => 'Reset Password',
-	'reset_password_content_1'       => 'Forgot your password?',
-	'reset_password_content_2'       => 'Let\'s get you a new one.',
-	'reset_password_content_3'       => 'If you did not request a password reset, no further action is required.',
+	'reset_password_title'           => 'Reimposta Password',
+	'reset_password_action'          => 'Reimposta la Password',
+	'reset_password_content_1'       => 'Dimenticato la password?',
+	'reset_password_content_2'       => 'Scegline una nuova.',
+	'reset_password_content_3'       => 'Se non hai richiesto il reset della password,non è richiesta alcuna ulteriore azione.',
 	
 	
 	// contact_form
