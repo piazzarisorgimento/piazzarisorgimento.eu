@@ -47,7 +47,7 @@ return [
     'Sell, Buy and Rent your products and services on :app_name in Minutes' => 	'<strong> Vendi </strong>, <strong> Acquista </strong> e <strong> Noleggia </strong> i tuoi prodotti e servizi su :app_name in pochi minuti',
     'Sell and Buy products and services on :app_name in Minutes' => 	'<strong> Vendi </strong> e <strong> Acquista </strong> prodotti e servizi su :app_name in pochi minuti',
     'Sell, Buy and Rent products and services on :app_name in Minutes' => 	'<strong> Vendi </strong>, <strong> Acquista </strong> e <strong> Noleggia </strong> prodotti e servizi su :app_name in pochi minuti',
-    'Post Free Ads' => 	'Inserisci la tua proposta',
+    'Post Free Ads' => 	'Inserisci il tuo annuncio',
     'Start Now!' => 	'Inizia ora!',
     'e.g. Smartphone' => 	'es. Smartphone',
     'All Categories' => 	'tutte le categorie',
@@ -129,7 +129,7 @@ return [
     'Your message has been sent to our moderators. Thank you' => 	'Il tuo messaggio è stato inviato ai nostri moderatori. Grazie.',
 
     'Post a Free Classified' => 	'Pubblica un annuncio',
-    'Do you have something to sell, to rent, any service to offer or a job offer? Post it at :app_name, its free, local, easy, reliable and super fast!' => 	'Hai qualcosa da vendere, da affittare, qualche servizio da offrire o un\'offerta di lavoro? Pubblicalo su :app_nome, è facile!',
+    'Do you have something to sell, to rent, any service to offer or a job offer? Post it at :app_name, its free, local, easy, reliable and super fast!' => 	'Hai qualcosa da vendere, da affittare, qualche servizio da offrire o un\'offerta di lavoro? Pubblicalo su :app_name, è facile!',
     'Create and Manage Items' => 	'Crea e gestisci annunci',
     'Become a best seller or buyer. Create and Manage your ads. Repost your old ads, etc.' => 	'Crea e gestisci i tuoi annunci. Ripubblica i tuoi vecchi annunci, ecc.',
     'Create your Favorite ads list.' => 	'Crea il tuo elenco di annunci preferiti.',
@@ -203,7 +203,7 @@ return [
     'Your settings account has updated successfully.' => 	'Le impostazioni dell\'accounto sono state salvate correttamente.',
 
     'My account' => 	'Il mio account',
-    'My account on :app_name' => 	'Il mio account su :app_nome',
+    'My account on :app_name' => 	'Il mio account su :app_name',
 
     'Your message has sent successfully to :contact_name.' => 	'Il tuo messaggio è stato inviato correttamente a acontact_name.',
     'Your report has sent successfully to us. Thank you!' => 	'La tua segnalazione ci è stata inviata correttamente. Grazie!',
@@ -215,7 +215,7 @@ return [
     'Your ad has been updated.' => 	'Il tuo annuncio è stato aggiornato.',
 
     'Log in' => 	'Accesso',
-    'Log in to :app_name' => 	'Accedi a :app_nome',
+    'Log in to :app_name' => 	'Accedi a :app_name',
     'The Email Address or Password don\'t match.' => 	'L\'indirizzo email o la password non corrispondono.',
     'You have been logged out.' => 	'Sei stato disconnesso.',
 
@@ -316,7 +316,7 @@ return [
     'Pay only after collecting the item' => 	'Paga solo dopo aver ritirato l\'oggetto',
     'Know more' => 	'Saperne di più',
     'View phone' => 	'Vedi numero',
-    
+
 
     'Contact advertiser' => 'Contact Advertiser',
     'Name' => 'Name',
@@ -385,7 +385,7 @@ return [
     'Our websites abroad' => 'Our websites abroad',
 
     'My Account' => 'My Account',
-    'Terminate Account' => 'Terminate Account',
+    'Terminate Account' => 'Impostazioni Account',
 
     'We do not like robots' => 'We do not like robots :(',
 
@@ -431,7 +431,7 @@ return [
     'Finish' => 'Finish',
 
     'Trusted Seller' => 'Trusted Seller',
-    'Trusted Sellers' => 'Trusted Sellers',
+    'Trusted Sellers' => 'Venditori certificati',
     'Facebook Fans' => 'Facebook Fans',
 
 
@@ -440,8 +440,8 @@ return [
     'Add images to sell faster' => 'Add images to sell faster!',
     'We sponsor your Ad' => 'We sponsor your Ad',
     'View all Ads' => 'View all Ads',
-    'Browse by' => 'Browse by',
-    'View more' => 'View more',
+    'Browse by' => 'Sfoglia per',
+    'View more' => 'Visualizza altro',
 
 
     'Error in sending mail. Please contact our engineers: :app_email' => 'Error in sending mail. Please contact our engineers: :app_email',
@@ -551,10 +551,10 @@ return [
     'Send a report for :title' => 'Send a report for ":title"',
     'Home - Latest Ads' => 'Latest <span style="font-weight: bold;">Ads</span>',
     'Home - Sponsored Ads' => 'Sponsored <span style="font-weight: bold;">Ads</span>',
-    'Photos' => 'Photos',
-    'Images' => 'Images',
-    'Preview' => 'Preview',
-    'Done' => 'Done',
+    'Photos' => 'Foto',
+    'Images' => 'immagini',
+    'Preview' => 'Anteprima',
+    'Done' => 'Fatto',
     'The pictures have been updated' => 'The pictures have been updated',
     'Are you sure you want to delete this picture?' => 'Are you sure you want to delete this picture?',
     'The picture has been deleted.' => 'The picture has been deleted.',
@@ -613,7 +613,7 @@ return [
 	'Transaction' => 'Transaction',
 	'My Transactions' => 'My Transactions',
 	'My Transactions on :app_name' => 'My Transactions on :app_name',
-	'Description' => 'Description',
+	'Description' => 'Descrizione',
 	'Value' => 'Value',
 	'Status' => 'Status',
 	'Pending payment' => 'Pending payment',
@@ -685,9 +685,9 @@ return [
 	'Loading' => 'Loading',
 	'Processing' => 'Processing',
 	'Your picture has been reorder successfully' => 'Your picture has been reorder successfully',
-	'Add Listing' => 'Add Listing',
-	'Choose a city or region' => 'Choose a city or region',
-	'Choose a state or region' => 'Choose a state or region',
+	'Add Listing' => 'Inserisci annuncio',
+	'Choose a city or region' => 'Scegli la città',
+	'Choose a state or region' => 'Scegli la nazione o la regione',
 	'Conversations' => 'Conversations',
 	'Conversation' => 'Conversation',
 	'Conversations Received' => 'Conversations Received',
