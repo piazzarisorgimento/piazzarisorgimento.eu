@@ -13,7 +13,7 @@ return [
     
     'Free local classified ads in the World' => 'Free Local Classified Ads in the World',
     'Free local classified ads in :location' => 'Free Local Classified Ads in :location',
-	'Sell and buy near you' => 'Sell and Buy near you',
+	'Sell and buy near you' => 'Trova qualcuno da aiutare',
 	'Simple, fast and efficient' => 'Simple, fast and efficient',
     'Daily good deals' => 'Daily good deals',
     'Daily good deals in :location' => 'Daily good deals in :location',
