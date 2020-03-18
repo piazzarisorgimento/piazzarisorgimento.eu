@@ -187,7 +187,7 @@ class CreateController extends FrontController
 		$post->lon = $city->longitude;
 		$post->ip_addr = Ip::get();
 		$post->tmp_token = md5(microtime() . mt_rand(100000, 999999));
-		$post->verified_email = 0;
+		$post->verified_email = 1;
 		$post->verified_phone = 1;
 		$post->reviewed = 0;
 		
