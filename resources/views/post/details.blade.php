@@ -318,9 +318,11 @@
 									@if (auth()->user()->id == $post->user_id)
 										<a class="btn btn-default" href="{{ \App\Helpers\UrlGen::editPost($post) }}"><i class="fa fa-pencil-square-o"></i> {{ t('Edit') }}</a>
 									@else
+										{!! genBuyNowBtn($post) !!}
 										{!! genEmailContactBtn($post) !!}
 									@endif
 								@else
+									{!! genBuyNowBtn($post) !!}
 									{!! genEmailContactBtn($post) !!}
 								@endif
 								{!! genPhoneNumberBtn($post) !!}
@@ -416,6 +418,7 @@
 												@endif
 											@endif
 										@else
+									    	{!! genBuyNowBtn($post, true) !!}
 											{!! genEmailContactBtn($post, true) !!}
 											{!! genPhoneNumberBtn($post, true) !!}
 										@endif
@@ -444,6 +447,7 @@
 										} catch (\Exception $e) {}
 										?>
 									@else
+									    {!! genBuyNowBtn($post, true) !!}
 										{!! genEmailContactBtn($post, true) !!}
 										{!! genPhoneNumberBtn($post, true) !!}
 									@endif
